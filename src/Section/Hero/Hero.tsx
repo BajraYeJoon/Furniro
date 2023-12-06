@@ -7,15 +7,16 @@ const Hero = () => {
         className="object-cover aspect-auto w-full h-full "
       />
 
-      <div className="absolute bottom-[14%] right-[10%] max-w-[500px] min-h-[400px] p-6 bg-[#FFF3E3]  rounded-lg shadow">
+      <div className="absolute bottom-[14%] right-[3%] w-[643px] min-h-[443px] p-6 bg-[#FFF3E3]  rounded-lg shadow">
         <div className="pt-8">
-          <span className="text-black tracking-widest text-sm ">
+          <span className="text-gray-500 font-bold tracking-widest text-sm ">
             New Arrival
           </span>
-          <h1 className=" my-2 text-5xl break-all font-semibold text-[#B88E2F] tracking-tight">
-            Discover Our New Collection
+          <h1 className=" my-2 text-5xl break-words leading-snug font-semibold text-[#B88E2F] tracking-tight">
+            Discover Our <br />
+            New Collection
           </h1>
-          <p className="mt-4 mb-10 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mt-4 mb-10 font-medium text-gray-700 ">
             Here are the biggest enterprise technology acquisitions of 2021 so
             far, in reverse chronological order.
           </p>
