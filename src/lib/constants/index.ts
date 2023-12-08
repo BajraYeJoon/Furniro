@@ -35,3 +35,18 @@ export const NAV_LOGO = [
     src: "/img/navbar/shopping-cart-outlined.svg",
   },
 ];
+
+export const CATEGORIES_ITEMS = [
+  {
+    label: "Dining",
+    ImgSrc: "/img/categories/dining.png",
+  },
+  {
+    label: "Living",
+    ImgSrc: "/img/categories/living.png",
+  },
+  {
+    label: "Bedroom",
+    ImgSrc: "/img/categories/bedroom.png",
+  },
+];

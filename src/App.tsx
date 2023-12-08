@@ -7,12 +7,12 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import Hero from "./Section/Hero/Hero";
+import Landing from "./Section/Landing/Landing";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route index element={<Hero />} />
+      <Route index element={<Landing />} />
       <Route path="about" element={<h1>about</h1>} />
       <Route path="login" element={<h1>login</h1>} />
     </Route>
