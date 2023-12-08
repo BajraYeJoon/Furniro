@@ -7,7 +7,7 @@ interface CategoryItemProps {
 
 const CategoryItem = ({ label, ImgSrc }: CategoryItemProps) => {
   return (
-    <div className="flex flex-col md:max-w-xs rounded-lg items-center justify-center">
+    <div className="flex flex-col md:max-w-sm rounded-lg items-center justify-center">
       <div>
         <Link to={`/products/${label}`}>
           <img className="rounded-t-lg" src={ImgSrc} alt="" />

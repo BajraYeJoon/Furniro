@@ -3,6 +3,7 @@ import Hero from "../Hero/Hero";
 import { MaxWidthWrapper } from "../../components/Wrapper/MaxWidthWrapper";
 import Separator from "../../components/Separator/Separator";
 import Categories from "../Categories/Categories";
+import Grid from "../Grid/Grid";
 
 const Landing = () => {
   return (
@@ -19,6 +20,26 @@ const Landing = () => {
          "
         />
         <Categories />
+        {/*  */}
+        <Separator />
+        {/*  */}
+        <CustomHeading
+          Heading="Our Products"
+          SubHeading="
+           Updated daily, discover our latest products.
+         "
+        />
+        {/*  */}
+        <Separator />
+        {/*  */}
+        <CustomHeading
+          Heading="Our Products"
+          SubHeading="
+           Updated daily, discover our latest products.
+         "
+          isReverse={true}
+        />
+        <Grid />
       </MaxWidthWrapper>
     </>
   );
