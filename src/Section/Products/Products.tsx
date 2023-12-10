@@ -8,8 +8,8 @@ const Products = () => {
         <div key={index} className="group relative ">
           <div className="rounded-lg flex flex-col bg-white border border-gray-200 group-hover:opacity-30 group-hover:bg-gray-800 w-full h-full">
             <img
-              className="rounded-t-lg w-full object-cover object-center"
-              src="https://images.unsplash.com/photo-1612837017391-8b9b6b0b0b0e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXR5JTIwc2FsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+              className="rounded-t-lg w-full object-cover object-center h-[180px]"
+              src={product.ImgSrc}
               alt={product.name}
             />
 
@@ -23,27 +23,32 @@ const Products = () => {
                 {product.tagline}
               </p>
               <div className="flex items-center justify-between">
-                <span className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full">
+                {/* <span className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full">
                   {product.type === "new" ? "New" : "Sale"}
-                </span>
+                </span> */}
                 <div className="flex items-center">
                   <span className="text-lg font-bold text-gray-900 dark:text-white">
-                    ${product.price}
+                    Rp {product.price}
                   </span>
-                  {product.type === "sale" && (
+                  {/* {product.type === "sale" && (
                     <span className="ml-2 text-sm text-gray-500 dark:text-gray-400">
                       ${product.discountedPrice}
                     </span>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
           </div>
 
           <div className="absolute rounded-lg h-full w-full bg-black/40 flex items-center justify-center -bottom-8 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-            <button className="bg-white/50 hover:bg-white/70 text-white/50 hover:text-white/70 rounded-full w-10 h-10 flex items-center justify-center">
+            <button className="bg-white/50 hover:bg-white/70 text-white/50 hover:text-white/70 rounded w-100 h-10 flex items-center justify-center">
               Add to Cart
             </button>
+            <div className="">
+              <button>share</button>
+              <button>compare</button>
+              <button>Like</button>
+            </div>
           </div>
         </div>
       ))}

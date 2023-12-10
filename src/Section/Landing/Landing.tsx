@@ -28,7 +28,7 @@ const Landing = () => {
            Updated daily, discover our latest products.
          "
         />
-        {/* <Products /> */}
+        <Products />
         {/*  */}
         <Separator />
         {/*  */}
