@@ -53,14 +53,14 @@ export const CATEGORIES_ITEMS = [
 
 export const PRODUCTS_LIST = [
   {
-    ImgSrc : "/img/categories/bedroom.png",
+    ImgSrc : "/img/landing-product-img/sylthering.png",
     name: "Syltherine",
     tagline: "Stylish cafe chair",
     price: "2.500.000",
     // type: "new",
   },
   {
-    ImgSrc : "",
+    ImgSrc : "/img/landing-product-img/leviosa.png", 
     name: "Leviosa",
     tagline: "Stylish cafe chair",
     price: "2.500.000",
@@ -68,18 +68,21 @@ export const PRODUCTS_LIST = [
     // discountedPrice: 119.99,
   },
   {
+    ImgSrc : "/img/landing-product-img/lolito.png", 
     name: "Lolito",
     tagline: "Luxury big sofa",
     price: "7.000.000",
     // type: "new",
   },
   {
+    ImgSrc : "/img/landing-product-img/respira.png", 
     name: "Respira",
     tagline: "Outdoor bar table and stool",
     price: 500.000,
     // type: "new",
   },
   {
+    ImgSrc : "/img/landing-product-img/grifo.png",
     name: "Grifo",
     tagline: "Night lamp",
     price: "1.500.000",
@@ -87,12 +90,14 @@ export const PRODUCTS_LIST = [
     // discountedPrice: 799.99,
   },
   {
+    ImgSrc : "/img/landing-product-img/muggo.png",
     name: "Muggo",
     tagline: "Small mug",
     price: 150.000,
     // type: "new",
   },
   {
+    ImgSrc : "/img/landing-product-img/pingky.png",
     name: "Pingky",
     tagline: "Cute bed set",
     price: "7.000.000",
@@ -100,6 +105,7 @@ export const PRODUCTS_LIST = [
     // discountedPrice: 599.99,
   },
   {
+    ImgSrc : "/img/landing-product-img/Potty.png",
     name: "Potty",
     tagline: "Minimalist flower pot",
     price: "500.000",

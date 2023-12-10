@@ -41,9 +41,14 @@ const Products = () => {
           </div>
 
           <div className="absolute rounded-lg h-full w-full bg-black/40 flex items-center justify-center -bottom-8 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-            <button className="bg-white/50 hover:bg-white/70 text-white/50 hover:text-white/70 rounded-full w-10 h-10 flex items-center justify-center">
+            <button className="bg-white/50 hover:bg-white/70 text-white/50 hover:text-white/70 rounded w-100 h-10 flex items-center justify-center">
               Add to Cart
             </button>
+            <div className="">
+              <button>share</button>
+              <button>compare</button>
+              <button>Like</button>
+            </div>
           </div>
         </div>
       ))}
