@@ -8,8 +8,8 @@ const Products = () => {
         <div key={index} className="group relative ">
           <div className="rounded-lg flex flex-col bg-white border border-gray-200 group-hover:opacity-30 group-hover:bg-gray-800 w-full h-full">
             <img
-              className="rounded-t-lg w-full object-cover object-center"
-              src="https://images.unsplash.com/photo-1612837017391-8b9b6b0b0b0e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXR5JTIwc2FsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+              className="rounded-t-lg w-full object-cover object-center h-[180px]"
+              src={product.ImgSrc}
               alt={product.name}
             />
 
@@ -23,9 +23,9 @@ const Products = () => {
                 {product.tagline}
               </p>
               <div className="flex items-center justify-between">
-                <span className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full">
+                {/* <span className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full">
                   {product.type === "new" ? "New" : "Sale"}
-                </span>
+                </span> */}
                 <div className="flex items-center">
                   <span className="text-lg font-bold text-gray-900 dark:text-white">
                     ${product.price}
